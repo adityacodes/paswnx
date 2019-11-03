@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "paswnx": {
+      "hosting": {
+        "paswnx": [
+          "paswnx"
+        ]
+      }
+    }
+  }
+}

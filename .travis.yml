@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "13"
+script:
+ - echo "Deploy!!"
+install:
+  - npm install -g firebase-tools
+after_success:
+  - firebase deploy --project paswnx --token $FIREBASE_TOKEN
